@@ -16,24 +16,38 @@ Dataset includes a wide range of features, including:
 Loan Characteristics:
 
 loan_amnt: The total loan amount in dollars.
+
 term: Loan duration (e.g., "36 months" or "60 months").
+
 int_rate: The interest rate applied to the loan.
+
 installment: The monthly repayment amount.
+
+
 
 Borrower Demographics and Credit History:
 
 grade and sub_grade: Credit risk ratings assigned to the loan.
+
 emp_length and emp_length_numeric: Employment length, presented in categorical form and converted to a numeric value.
+
 home_ownership: Borrower’s housing status (e.g., RENT, MORTGAGE, OWN).
+
 annual_inc: Annual income.
+
 verification_status: Whether the borrower’s income was verified.
+
 earliest_cr_line: Date of first credit establishment, used to derive credit age.
+
 open_acc, pub_rec, revol_bal, revol_util, total_acc, mort_acc, and pub_rec_bankruptcies: Various indicators of credit behavior and history.
 
 Other Relevant Features:
 
+
 issue_d: The date when the loan was issued.
+
 loan_status: The outcome of the loan, our target variable (Default or Fully Paid).
+
 purpose, title, dti, initial_list_status, application_type, and address: Additional information that provides context for each loan.
 
 
